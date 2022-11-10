@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Agregar etiquetas meta -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Practica BOM</title>
-</head>
-<body>
+  </head>
+  <body>
+    <main class="container text-center my-5">
+      <section class="titulo">
+        <p id="fecha" class="azul">Jueves 10 de noviembre del 2022</p>
+        <p id="hora" class="azul">19:42:05</p>
+      </section>
+      <section>
+        <button class="btn btn-azul" onclick="cambiarColor('azul')">Azul</button>
+        <button class="btn btn-rosa" onclick="cambiarColor('rosa')">Rosa</button>
+        <button class="btn btn-verde" onclick="cambiarColor('verde')">Verde</button>
+      </section>
+    </main>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/teoriaBOM.js"></script>
-</body>
+    <!-- <script src="/js/teoriaBOM.js"></script> -->
+    <script src="/js/reloj.js"></script>
+  </body>
 </html>
